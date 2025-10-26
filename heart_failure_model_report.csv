@@ -1,0 +1,11 @@
+Model,Precision,Accuracy,F1,AUC,Top Predictors
+Random Forest,0.7857,0.8167,0.6667,0.8825,"time (0.368), serum_creatinine (0.146), ejection_fraction (0.135), platelets (0.077), age (0.076)"
+AdaBoost,0.7647,0.8333,0.7222,0.8736,"time (0.400), platelets (0.200), serum_creatinine (0.100), ejection_fraction (0.080), creatinine_phosphokinase (0.080)"
+Logistic Regression,0.7857,0.8167,0.6667,0.8588,"time (1.577), ejection_fraction (0.910), serum_creatinine (0.788), age (0.416), creatinine_phosphokinase (0.276)"
+Extra Trees,0.7,0.75,0.4828,0.8549,"time (0.286), ejection_fraction (0.143), serum_creatinine (0.133), creatinine_phosphokinase (0.078), serum_sodium (0.077)"
+HistGradientBoosting,0.8462,0.8333,0.6875,0.8485,"time (0.246), ejection_fraction (0.042), sex (0.018), age (0.015), serum_creatinine (0.014)"
+Gradient Boosting,0.8,0.8333,0.7059,0.8447,"time (0.588), serum_creatinine (0.123), ejection_fraction (0.098), platelets (0.068), creatinine_phosphokinase (0.056)"
+SVC (RBF),0.7273,0.7667,0.5333,0.8447,"time (0.158), age (0.064), ejection_fraction (0.055), sex (0.016), serum_sodium (0.014)"
+GaussianNB,0.5455,0.7,0.4,0.8293,"time (0.172), age (0.038), serum_sodium (0.030), ejection_fraction (0.029), anaemia (0.008)"
+KNN,0.7143,0.7333,0.3846,0.7997,"time (0.157), ejection_fraction (0.104), age (0.068), serum_sodium (0.054), anaemia (0.032)"
+Decision Tree,0.6,0.7333,0.5294,0.6637,"time (0.485), platelets (0.144), ejection_fraction (0.138), serum_creatinine (0.111), serum_sodium (0.033)"
